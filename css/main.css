@@ -1,43 +1,63 @@
-body
-{
-    margin: 0;
+ul {
+    width:770px;
     padding: 0;
-    font-family: 'Helvetica Neue';
-}
-body header
-{
-    height: 400px;
-
-}
-body section
-{
-    height: 50px;
-    background : grey;
+    margin: 0 auto;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
+ul li {
     list-style: none;
-    display: inline;
+    display: inline-block;
 }
 
-nav ul li img  {
-    width: 17%;
-    height: 17%;
-    display: inline;
-}
-header img {
-    width: 100%;
-
+ul li img {
+    width: 150px;
 }
 
-nav ul li a  {
- }
-
-.clear {
-    clear: both;
+section {
+    background : grey;
+    height: 50px;
 }
+
+/*body*/
+/*{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-family: 'Helvetica Neue';*/
+/*}*/
+/*body header*/
+/*{*/
+    /*height: 400px;*/
+
+/*}*/
+/*body section*/
+/*{*/
+    /*height: 50px;*/
+    /*background : grey;*/
+/*}*/
+
+/*nav ul {*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+/*}*/
+
+/*nav ul li {*/
+    /*list-style: none;*/
+    /*display: inline;*/
+/*}*/
+
+/*nav ul li img  {*/
+    /*width: 17%;*/
+    /*height: 17%;*/
+    /*display: inline;*/
+/*}*/
+/*header img {*/
+    /*width: 100%;*/
+
+/*}*/
+
+/*nav ul li a  {*/
+ /*}*/
+
+/*.clear {*/
+    /*clear: both;*/
+/*}*/
