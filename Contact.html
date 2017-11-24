@@ -3,8 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
+<header>
+    <img src="img/bandeau.jpg">
+    <nav>
+        <ul id="iconelien">
+            <li><a href="index.html" title="Présentation"><img src="img/Home.png" alt="Accueil"></a></li>
+            <li><a href="competence-pro.html" title="Compétences Pro"><img src="img/Button%20lien%20competence%20pro.png" alt="competence professionnel"></a></li>
+            <li><a href="experiences.html" title="Expériences"><img src="img/xperience.png" alt="Experiences"></a></li>
+            <li><a href="formations.html" title="Formations"><img src="img/Formations.png" alt="Formations"></a></li>
+            <li><a href="Contact.html" title="Contact"><img src="img/Contact.png" alt="contact"></a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="clear"></div>
+
+<section id="titrepage">
+    <h1>Contact</h1>
+</section>
+
+<div id="form-main">
+    <div id="form-div">
+        <form class="form" id="form1">
+
+            <p class="name">
+                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+
+            <p class="email">
+                <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+
+            <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Je suis pas venu ici pour souffrir ok ???"></textarea>
+            </p>
+
+            <div class="submit">
+                <input type="submit" value="SEND" id="button-blue"/>
+                <div class="ease"></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    <footer>
+
+        <div>
+            <p>Copyright - MARSAC Erwan - Novembre 2017</p>
+        </div>
+
+    </footer>
+
 </body>
+
+
 </html>

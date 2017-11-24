@@ -3,41 +3,352 @@ body
     margin: 0;
     padding: 0;
     font-family: 'Helvetica Neue';
-}
-body header
-{
-    height: 400px;
-
-}
-body section
-{
-    height: 50px;
-    background : grey;
+    color: black;
+    background-image: url("../img/back-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline;
-}
-
-nav ul li img  {
-    width: 17%;
-    height: 17%;
-    display: inline;
-}
 header img {
     width: 100%;
+    margin: auto;
+}
+
+ul {
+    width: auto;
+    padding: 0px;
+    margin: 10px auto;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    border-spacing: inherit;
+}
+
+#iconelien {
+    list-style: none;
+    justify-content: space-around;
 
 }
 
-nav ul li a  {
+
+#iconelien img{
+    width: 100px;
+    margin: 0 50px 0 50px;
+}
+
+h1, h2 {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#titrepage {
+    background: rgba(255, 255, 255, .2);
+    height: auto;
+    margin: 2%;
+    border-radius: 14px;
+}
+
+#titreci {
+    color: white;
+    font-weight: lighter;
+}
+
+.colonnes{
+    margin: 0;
+    background: rgba(255, 255, 255, .3);
+
+    margin: auto;
+    width: auto;
+    border-collapse: separate;
+    border-spacing: 30px;
+    border-radius:14px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.colonnes>div {
+    float: left;
+    text-align: center;
+
+}
+
+div .colonnes {
+    display: table;
+
+}
+#listeci{
+    list-style: none;
+    display: inline-flex;
+}
+
+#listeci img {
+    width: 50%;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+/* --------------- Contact ------------------- */
+#feedback-page{
+    text-align:center;
+}
+
+
+#form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:35px;
+    padding-bottom:50px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+    margin-top:30px;
+    margin-left: -260px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: rgba(255,255,255,1);
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+
+}
+
+
+#name{
+    background-image: url("../img/contact/user-2.png");
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#email{
+    background-image: url("../img/contact/email.png");
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#comment{
+    background-image: url("../img/contact/pen-2.png");
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    background-color:white;
+}
+
+#button-blue{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float:left;
+    width: 100%;
+    border: #fbfbfb solid 4px;
+    cursor:pointer;
+    background-color: #6d46bd;
+    color:white;
+    font-size:24px;
+    padding-top:22px;
+    padding-bottom:22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+
+#button-blue:hover{
+    background-color: rgba(0,0,0,0);
+    color: #6d46bd;
+}
+
+.ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.submit:hover .ease{
+    width:100%;
+    background-color:white;
+}
+
+/* --------- Fin Contact -------------*/
+
+/* --------- Barre Progression Cmptnc Pro -------------*/
+
+.progress-bar{
+    width: 200px;
+    height: 10px;
+    margin: 30px;
+    background-color: rgba(115, 83, 118, 0.84);
+    border-radius:14px;
+}
+
+.percent {
+    background-color: rgba(46, 1, 255, 0.54);
+    width: 0%;
+    margin-top: 1px;
+    height: 10px;
+    border-radius:14px;
+}
+/* --------- LOGICIELS -------------*/
+
+#aps .percent {
+    width: 20%;
+}
+
+#aid .percent {
+    width: 50%;
+}
+
+#fcpx .percent {
+    width: 80%;
+}
+
+#office .percent {
+     width: 95%;
  }
 
-.clear {
-    clear: both;
+/* --------- DIGITAL -------------*/
+#market .percent {
+    width: 20%;
 }
+
+#communication .percent {
+    width: 30%;
+}
+
+#ui-ux .percent {
+    width: 30%;
+}
+
+#ecommerce .percent {
+    width: 10%;
+}
+/* --------- DEVELOPPEMENT -------------*/
+
+#cplusplus .percent {
+    width: 30%;
+}
+
+#ython .percent {
+    width: 19%;
+}
+
+#html-css .percent {
+    width: 70%;
+}
+
+#poo .percent {
+    width: 20%;
+}
+
+/* --------- RESEAU -------------*/
+
+#bdonnées .percent {
+    width: 40%;
+}
+
+#vmw .percent {
+    width: 60%;
+}
+
+#os .percent {
+    width: 95%;
+}
+
+#adip .percent {
+    width: 70%;
+}
+
+/* --------- Fin Barre Progression Cmptnc Pro -------------*/
+
+
+/* --------- Navigation Experiences -------------*/
+
+.navigationexp img{
+    width: 150px;
+    padding: 40px;
+}
+
+.navigationexp{
+    text-align: center;
+}
+
+.textcaher{
+    background-color: rgba(255,255,255,0.3);
+    width: 300px;
+    display: none;
+    position: absolute;
+    border-radius: 14px;
+}
+
+img:hover + .textcaher{
+    display: block;
+}
+
+.expyear{
+    display: inline-block;
+    width: auto;
+    height: auto;
+
+}
+
+/* --------- FIN Navigation Experiences -------------*/
+
+/* --------- Pied de Page -------------*/
+
+body>footer>div>p {
+
+    background-color: #61738b;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+
+
+    position: 0;
+    right: 0;
+    left: 0;
+    bottom: bottom;
+}
+
+/* --------- Fin Pied de Page -------------*/
+
+02 53 44 96 42
