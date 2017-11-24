@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7a5140-81e7-42f5-8716-cf21248e19b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/centres-interets.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Button lien competence pro.png" afterPath="$PROJECT_DIR$/img/Button lien competence pro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Contact.png" afterPath="$PROJECT_DIR$/img/Contact.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Formations.png" afterPath="$PROJECT_DIR$/img/Formations.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Home.png" afterPath="$PROJECT_DIR$/img/Home.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bandeau.jpg" afterPath="$PROJECT_DIR$/img/bandeau.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/people_1.png" afterPath="$PROJECT_DIR$/img/people_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/xperience.png" afterPath="$PROJECT_DIR$/img/xperience.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Contact.html" afterPath="$PROJECT_DIR$/Contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competence-pro.html" afterPath="$PROJECT_DIR$/competence-pro.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiences.html" afterPath="$PROJECT_DIR$/experiences.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/formations.html" afterPath="$PROJECT_DIR$/formations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,10 +16,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5534962">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-195">
+                <state relative-caret-position="15">
                   <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
                   <folding />
                 </state>
@@ -60,7 +46,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="experiences.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="experiences.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/experiences.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="621">
@@ -87,8 +73,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="682">
-                  <caret line="353" column="12" lean-forward="false" selection-start-line="353" selection-start-column="12" selection-end-line="353" selection-end-column="12" />
+                <state relative-caret-position="365">
+                  <caret line="352" column="0" lean-forward="true" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -113,12 +99,12 @@
       <list>
         <option value="$PROJECT_DIR$/img/Contact.html" />
         <option value="$PROJECT_DIR$/centres-interets.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/formations.html" />
         <option value="$PROJECT_DIR$/Contact.html" />
         <option value="$PROJECT_DIR$/competence-pro.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/experiences.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -155,6 +141,22 @@
             <path>
               <item name="CV MARSAC HTML CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CV MARSAC HTML CSS" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV MARSAC HTML CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV MARSAC HTML CSS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV MARSAC HTML CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV MARSAC HTML CSS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CV MARSAC HTML CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CV MARSAC HTML CSS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="interet" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -250,12 +252,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511345900992</updated>
-      <workItem from="1511345903606" duration="55294000" />
+      <workItem from="1511345903606" duration="55600000" />
     </task>
+    <task id="LOCAL-00001" summary="Mise à jour">
+      <created>1511535960014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511535960014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55294000" />
+    <option name="totallyTimeSpent" value="55600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -303,6 +313,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mise à jour" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -361,14 +375,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -393,18 +399,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="353" column="12" lean-forward="false" selection-start-line="353" selection-start-column="12" selection-end-line="353" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiences.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="352" column="0" lean-forward="true" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
         </state>
       </provider>
